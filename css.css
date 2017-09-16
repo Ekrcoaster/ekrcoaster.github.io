@@ -1,0 +1,281 @@
+	@import url('https://fonts.googleapis.com/css?family=Handlee');
+body {
+	background-image: url("background.png");
+	background-attachment: fixed;
+	font-family: 'Handlee', cursive;
+	color: white;
+}
+
+href {
+	cursor: pointer;
+}
+
+#fade {
+	width: 1000%;
+	height: 1000%;
+	position:absolute;
+	top:0px;
+	left: 0px;
+	z-index: 20;
+	background-color: white;
+	
+}
+
+#slider {
+	position: absolute;
+	top: 200px;
+	left: 5px;
+	z-index: 2;
+	width: 40px;
+	padding: 5px;
+	border-radius: 15px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	
+}
+
+#volumeButton{
+	position: relative;
+	left: 0px;
+	z-index: 2;
+	width: 40px;
+	background-color: rgba(231, 252, 246, 0.44); 
+	padding: 5px;
+	border-radius: 15px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+#button{
+	position: relative;
+	left: 0px;
+	z-index: 2;
+	width: 40px;
+	background-color: rgba(231, 252, 246, 0.15); 
+	padding: 5px;
+	border-radius: 15px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+#button:hover {
+	position: relative;
+	left: 10px;
+	z-index: 2;
+	width: 40px;
+	background-color: rgba(231, 252, 246, 0.44); 
+	padding: 5px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+
+#volumeButton:hover {
+	position: relative;
+	left: 10px;
+	z-index: 2;
+	width: 40px;
+	background-color: rgba(231, 252, 246, 0.44); 
+	padding: 5px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+#backgroundImg {
+	width: 100%;
+	position: fixed;
+	top: -5%;
+	left:0;
+	filter: blur(5px);
+}
+
+#container {
+	width: 100%;
+	position: absolute;
+	top: 768px;
+	background-color: rgba(231, 252, 246, 0.44);
+	text-align: center;
+	z-index: 1;
+}
+
+#navBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: rbg(15, 15, 15);
+	font-size: 25px;
+	position: absolute;
+	left: 50%;
+	top:725px;
+	transform: translate(-50%, 0%);
+	z-index: 2;
+}
+
+#logo {
+	text-align: center;
+	position: relative;
+	top: 200px;
+	left: 50%;
+	width: 50%;
+	height: auto;
+	transform: translate(-50%, 0%);
+}
+
+#moto {
+	position: relative;
+	color: white;
+	font-size: 25px;
+	left: 50%;
+	width: 50%;
+	top: 100px;
+	transform: translate(-12%, 12%);
+	font-weight: none;
+}
+
+#navUL {
+	position: relative;
+	top: -25px;
+}
+
+#navUL li{
+	display: inline;
+	margin-left: 2px;
+	margin-right: 2px;
+
+}
+
+#navUL li a{
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgba(231, 252, 246, 0.34);
+	border-radius: 15px 15px 0px 0px;
+	position:relative;
+	top: 0px;
+	padding-bottom: 10px;
+	transition-duration: 0.3s;
+}
+
+#navUL li a:hover{
+	padding: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgba(231, 252, 246, 0.34);
+	border-radius: 15px 15px 0px 0px;
+	position:relative;
+	top: -10px;
+	padding-bottom: 20px;
+}
+
+#preview {
+	border: 5px solid rgba(231, 252, 246, 0.34);
+	border-radius: 5px;
+}
+
+#buyTable {
+	border: 3px solid rgba(231, 252, 246, 0.34);
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	padding: 0px;
+	width: 30%;
+	min-width: 500px;
+}
+
+#buyTable tr{
+	padding: 0px;
+}
+
+#buyTable tr th{
+	border: 3px solid rgba(231, 252, 246, 0.34);
+	padding: 5px;
+	background-color: rgba(255, 252, 246, 0.34);
+}
+
+#buyTable tr th p{
+	position:relative;
+	top: 100px;
+	z-index: 0;
+}
+
+#buyTable tr th #text{
+	position:relative;
+	top: 75px;
+	z-index: 0;
+}
+
+#os {
+	width: 105px;
+	transition-duration: 0.8s;
+	position: relative;
+	left:0px;
+	-ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+
+#osx {
+	width: 105px;
+	transition-duration: 0.8s;
+	position: relative;
+	left:0px;
+	-ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+	transition-duration: 0.3s;
+}
+
+#osx:hover {
+	width: 105px;
+	transition-duration: 0.8s;
+	position: relative;
+	left:0px;
+	-ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+	
+}
+
+#os:hover {
+	position: relative;
+	left:85px;
+	-ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+
+#buyOptions {
+	position: absolute;
+	top: 630px;
+	left: 50%;
+	transform:translate(-50%, 0%);
+}
+
+#newsDiv {
+	left: 50%;
+	text-align: center;
+	overflow: hidden;
+}
+
+#newsDiv img {
+	width: 1200px;
+	border: 15px solid rgba(255, 252, 246, 0.34);
+	position:relative;
+	left: 00px;
+}
+
+#info {
+	background-color: rgba(255, 252, 246, 0.34);
+	padding: 15px;
+}
+
+
+
